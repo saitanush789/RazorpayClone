@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    overflow-x: hidden;
+    position: relative;
+}
+
+.corefeaturesection{
+    background-size: 100% 100%;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+}
+
+.companyList{
+    animation: 10s infinite linear moveCompany;
+}
+
+@keyframes moveCompany {
+    0%{
+        top: 0;
+    }
+    100%{
+        top: -50%;
+    }
+}
+
+.upper .lower{
+    background: linear-gradient(180deg, #f4f8ff, #fff0);
+}
+
+.lower{
+    background: linear-gradient(0deg, #f4f8ff, #fff0);
+}
+
+.ctaSection{
+    background-size: 100% 100%;
+}
